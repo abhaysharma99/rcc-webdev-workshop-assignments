@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.flexbox-container{
+    display: flex;
+    align-items: baseline;
+}
+.flexbox-item{
+    background-color: aqua;
+    border: 3px solid darkblue;
+    border-radius: 10px;
+    width: 30px;
+    margin: 10px;
+}
+.flexbox-item-1{
+    height: 50px;
+}
+.flexbox-item-2{
+    height: 70px;
+}
+.flexbox-item-3{
+    height: 100px;
+}
+.flexbox-item-4{
+    height: 30px;
+}
+.flexbox-item-5{
+    height: 40px;
+}

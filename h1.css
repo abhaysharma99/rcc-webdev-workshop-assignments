@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+}
+.flexbox-1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.flexbox-item{
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+    padding: 20px;
+    height: max-content;
+    margin: 40px;
+    background-color: aqua;
+    border: 3px solid royalblue;   
+}
+.flexbox-item-5,
+.flexbox-item-8{
+    width: 200px;
+}
